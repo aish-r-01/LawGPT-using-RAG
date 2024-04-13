@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Legal Assistant</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css')}}">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css')}}">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css')}}">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- font css -->
+      <link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/jquery.mCustomScrollbar.min.css')}}">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+   </head>
+   <body>
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <h1 style="color: white; font-weight: bold; padding: 0 20px;">LEGAL ASSISTANT</h1>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+            </nav>
+         </div>
+         <!-- banner section start --> 
+         <div class="banner_section layout_padding">
+            <div class="container-fluid">
+               <div id="banner_slider" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Democratizing Legal Assistance</h1>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="{{ url_for('static', filename='images/banner-img.png') }}" alt=''></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Desmystifying the law, Legal guidance simplified</h1>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="{{ url_for('static', filename='images/banner-img.png') }}" alt=''></div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                        <div class="row">
+                           <div class="col-md-6">
+                              <div class="banner_taital_main">
+                                 <h1 class="banner_taital">Legal Insights Powered by AI</h1>
+                              </div>
+                           </div>
+                           <div class="col-md-6">
+                              <div class="banner_img"><img src="{{ url_for('static', filename='images/banner-img.png') }}" alt=''></div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#banner_slider" role="button" data-slide="prev">
+                  <i class="fa fa-arrow-left"></i>
+                  </a>
+                  <a class="carousel-control-next" href="#banner_slider" role="button" data-slide="next">
+                  <i class="fa fa-arrow-right"></i>
+                  </a>
+               </div>
+            </div>
+         </div>
+         <!-- banner section end -->
+      </div>
+      <!-- header section end -->
+      <!-- box section start -->
+      <div class="container">
+         <div class="box_section">
+            <div class="online_box">
+               <div class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text"></p>
+                        <h4 class="appoinment_text">KnowYourStatute</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="online_box_left active">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text active"></p>
+                        <h4 class="appoinment_text active">Legal PDF Summarizer</h4>
+                     </div>
+                  </div>
+               </div>
+               <div class="online_box_left">
+                  <div class="online_box_main">
+                     <div class="box_left">
+                        <div class="right_arrow"><i class="fa fa-arrow-right"></i></div>
+                     </div>
+                     <div class="box_right">
+                        <p class="book_text"></p>
+                        <h4 class="appoinment_text">LawGPT</h4>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- box section end -->
+      <!-- services section start -->
+      <div class="services_section">
+         <div class="container">
+            <div class="row">
+               <div class="col-sm-12">
+                  <h1 class="studies_taital">SERVICE OFFERINGS</h1>
+               </div>
+            </div>
+         </div>
+         <div class="services_section_2">
+            <div id="main_slider" class="carousel slide" data-ride="carousel">
+               <div class="carousel-inner">
+                  <div class="carousel-item active">
+                     <div class="container">
+                        <div class="row">
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="{{ url_for('static', filename='images/icon-2.png') }}" class="image_1" alt=''>
+                                    <img src="{{ url_for('static', filename='images/icon-5.png') }}" class="image_2" alt=''>
+                                 </div>
+                                 <h3 class="corporate_text">Criminal Law and Women</h3>
+                                 <p class="chunks_text"> Given a situation, I can assist you in determining the applicable statute. </p>
+                                 <div class="readmore_button"><a href="{{ url_for('page1') }}">Try KnowYourStatute</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box active">
+                                 <div class="house_icon">
+                                    <img src="{{ url_for('static', filename='images/icon-3.png') }}" class="image_1" alt=''>
+                                    <img src="{{ url_for('static', filename='images/icon-6.png') }}" class="image_2" alt=''>
+                                 </div>
+                                 <h3 class="corporate_text">Summariser</h3>
+                                 <p class="chunks_text">Your legal jargon now made easy!</p>
+                                 <div class="readmore_button active"><a href="{{ url_for('page2') }}">Try Legal PDF Summariser</a></div>
+                              </div>
+                           </div>
+                           <div class="col-md-4">
+                              <div class="service_box">
+                                 <div class="house_icon">
+                                    <img src="{{ url_for('static', filename='images/icon-4.png') }}" class="image_1" alt=''>
+                                    <img src="{{ url_for('static', filename='images/icon-4.png') }}"class="image_2" alt=''>
+                                 </div>
+                                 <h3 class="corporate_text">Indian Law</h3>
+                                 <p class="chunks_text">Ask me anything related to Indian Laws!</p>
+                                 <div class="readmore_button"><a href="{{ url_for('page3') }}">Try LawGPT</a></div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+            </div>
+               <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev">
+               <i class="fa fa-arrow-left"></i>
+               </a>
+               <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next">
+               <i class="fa fa-arrow-right"></i>
+               </a>
+            </div>
+         </div>
+      </div>
+      <!-- services section end -->
+      <!-- studies section start -->
+      
+      <!-- studies section end -->
+      <!-- about section start -->
+      <div class="about_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="about_img"><img src="{{ url_for('static', filename='images/about-img.png') }}" alt=''></div>
+               </div>
+               <div class="col-md-6">
+                  <div class="about_text_main">
+                     <h1 class="about_taital">About Us</h1>
+                     <p class="about_text">Drowning in legalese? We've got you. Summarize complex legal documents, pinpoint relevant statutes for women's rights cases, and leverage the power of LawGPT - all with our AI-powered legal assistant.</p>
+                     <div class="readmore_bt"><a href="#">Read More</a></div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- about section end -->
+      <!-- testimonial section start -->
+      
+      <!-- testimonial section end -->
+      <!-- news section start -->
+      <div class="news_section layout_padding">
+         <div class="container">
+            <h1 class="news_taital">Recent News</h1>
+            <div class="news_section_2">
+               <div class="news_box">
+                  <div id="custom_slider" class="carousel slide" data-ride="carousel">
+                     <div class="carousel-inner">
+                        <div class="carousel-item active">
+                           <div class="news_img"><img src="{{ url_for('static', filename='images/news-img.png') }}" alt=''></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="news_img"><img src="{{ url_for('static', filename='images/news-img.png') }}" alt=''></div>
+                        </div>
+                        <div class="carousel-item">
+                           <div class="news_img"><img src="{{ url_for('static', filename='images/news-img.png') }}" alt=''></div>
+                        </div>
+                     </div>
+                     <a class="carousel-control-next" href="#custom_slider" role="button" data-slide="next">
+                     <i class="fa fa-arrow-right"></i>
+                     </a>
+                  </div>
+                  <h2 class="does_taital">Indian govt to frame new AI law to protect rights of news publishers</h2>
+                  <p class="dummy_text">The Indian government is planning a new law on artificial intelligence (AI) to protect the rights of news publishers and content creators, according to Union Minister for Electronics and Information Technology, Ashwini Vaishnaw. The law aims to balance the interests of publishers, creators and AI technologies, while fostering innovation. </p>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- news section end -->
+      <!-- footer section start -->
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="location_text">
+                     <ul>
+                        <li>
+                           <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-phone" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                           <a href="#"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+               <div class="social_icon">
+               <ul>
+               <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+               <li><a href="#"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+               </ul>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">2024 All Rights Reserved. <a href="https://html.design"></a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/popper.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/bootstrap.bundle.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/jquery-3.0.0.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/plugin.js') }}"></script>
+      <!-- sidebar -->
+      <script src="{{ url_for('static', filename='js/jquery.mCustomScrollbar.concat.min.js') }}"></script>
+      <script src="{{ url_for('static', filename='js/custom.js') }}"></script>
+      <!-- javascript --> 
+   </body>
+</html>
